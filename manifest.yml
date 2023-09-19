@@ -1,0 +1,11 @@
+modules:
+  jira:issuePanel:
+    - key: hello-there-app-hello-world-panel
+      function: main
+      title: hello-there-app
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/68ac97e3-1e99-45bf-97fb-fbf97ffd2d3f
